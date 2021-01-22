@@ -49,7 +49,7 @@ public class HomeFragment extends Fragment {
         binding = FragmentHomeBinding.inflate(inflater, container, false);
 
         rewardedAd = new RewardedAd(getContext(),
-                "ca-app-pub-2854521211489219/1138259028");
+                "your_rewarded_ad_id");
         rewardedAd.loadAd(new AdRequest.Builder().build(), new RewardedAdLoadCallback(){
             @Override
             public void onRewardedAdFailedToLoad(LoadAdError loadAdError) {
